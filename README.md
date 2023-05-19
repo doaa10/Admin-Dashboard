@@ -1,6 +1,4 @@
 # Admin-Dashboard
-# ---------------
-
 # to Run the code
 # download ZIP
 # cd admin_dashboard
