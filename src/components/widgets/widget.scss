@@ -1,0 +1,53 @@
+.widget{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    justify-content: space-between;
+    height: 100px;
+    border-radius: 10px;
+    flex: 1;
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title{
+            color: #8b8989;
+            font-size: 17px;
+        }
+        .counter{
+            color: #111;
+            font-size: 25px;
+        }
+        .link{
+            color: #8b8989;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+
+        .top{
+            display: flex;
+            font-size: 14px;
+            align-items: center;
+
+            &.pos{
+                color: green;
+            }
+            &.neg{
+                color: red;
+            }
+        }
+
+        .icon{
+            align-self: flex-end;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+}
